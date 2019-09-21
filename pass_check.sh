@@ -2,8 +2,9 @@
 
 # Add file and the target file size below
 repo=ProjectedTexture-VTK
-file=model.jpg
-target_file_size=482864
+file="build/test.png"
+target_file_size=25717
+
 
 # You shoud not have to modify below
 #
