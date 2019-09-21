@@ -18,4 +18,7 @@ if [ $myfilesize -ge $target_file_size ];then
         echo "Target File Size = "$target_file_size" " >> ~/$repo.PASSED
 else
         echo Failed!
+        echo "Failed!" >> ~/$repo.FAILED
+        echo "Acutal File Size = "$myfilesize" " >> ~/$repo.FAILED
+        echo "Target File Size = "$target_file_size" " >> ~/$repo.FAILED
 fi
